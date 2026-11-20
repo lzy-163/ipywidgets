@@ -36,7 +36,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip wheel build jupyterlab
+          python -m pip install --upgrade pip wheel build jupyterlab~=3.0
 
       - name: Build PyPI distributions for ipywidgets
         run: |
